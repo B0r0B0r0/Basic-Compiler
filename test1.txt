@@ -1,0 +1,33 @@
+// Test if, else, scanf, printf, comentarii
+
+float a = 2.3f;
+
+int b;
+printf("Introduceti o valoare pentru variabila b:");
+scanf("%d",&b);
+
+float c;
+
+if (b + 2 >a)
+{
+	// Realizez impartirea lui a la b
+	c = a/(float)b;
+	printf("am intrat aici");
+}
+else
+{
+	/* Realizez
+	inmultirea
+	lui
+	a
+	cu
+	b
+	*/
+	c = a*(float)b;
+}
+
+int d = 2 *(3 +5)/6;
+printf("%d",d);
+printf("Variabila c are valoarea: %f",c);
+
+exit();

@@ -1,0 +1,15 @@
+// Test scope variabile locale
+
+//if(3>2)
+{
+	int a =2;
+	int b=3;
+	printf("%d",a);
+	printf("%d",b);
+}
+
+// Ma astept la eroare
+
+int c = a + b;
+
+exit();

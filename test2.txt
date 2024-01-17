@@ -1,0 +1,11 @@
+// Test cast
+
+int a;
+
+float b=3.25f;
+scanf("%d",&a);
+printf("a este: %f",a);
+printf("b este: %f",b);
+
+exit();
+
